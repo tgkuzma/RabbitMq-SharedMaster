@@ -14,7 +14,7 @@ namespace SharedMaster
         private static void Main(string[] args)
         {
             InitializeDependencies();
-            Console.WriteLine("Waiting...");
+            Console.WriteLine("Waiting for messages...");
             Console.ReadKey();
         }
 
